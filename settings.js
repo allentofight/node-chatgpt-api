@@ -39,13 +39,13 @@ export default {
     // Options for the Bing client
     bingAiClient: {
         // Necessary for some people in different countries, e.g. China (https://cn.bing.com)
-        host: 'https://cn.bing.com',
+        host: '',
         // The "_U" cookie value from bing.com
         userToken: '1E_0WLNYVTIfwHZw8LCzoZCPw28YMWbgbIUumB_cjKuvXl8jO5JOjlfxyTDQ-w9pSXvTzx0S_ji5kam4qfCEgS5nYk7rLLEZYTz9wSwSHSU2iL5R6Ly7L3emynJBTsMH9fDiwvSGzSCUYCdAGnCRc3sndSflrylZRskriC4YcZ1afnpabIyPTe362lLXPxQzJKTuqCiTKNQ50pFS94Sh-9pMKxfaAKkGT2v5APUk7GVs',
         // If the above doesn't work, provide all your cookies as a string instead
         cookies: '',
         // A proxy string like "http://<ip>:<port>"
-        proxy: 'http://127.0.0.1:1087',
+        proxy: '',
         // (Optional) Set to true to enable `console.debug()` logging
         debug: false,
     },
